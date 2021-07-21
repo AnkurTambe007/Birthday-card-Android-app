@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#ffcccb">
+
+	<TextView
+		
+		android:text="Nature never fails to suprise"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="#0096ff"
+		android:textColor="#eeea38"
+		android:textSize="19sp"
+		android:layout_margin="8dp"
+		android:padding="10dp"/>
+
+	<ImageView
+		
+		android:src="@drawable/nature"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:padding="8dp"/>
+
+	<TextView
+		
+		android:text="--By Ankur"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="#0096ff"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+		android:layout_margin="10dp"
+		android:textColor="#EEEA38"
+		android:textAlignment="center"
+		android:padding="10dp"
+		android:textSize="19sp"/>
+
+</RelativeLayout>
